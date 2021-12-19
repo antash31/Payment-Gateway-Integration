@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --BGcolor: #000000;
+  --textColor: #d8e9a8;
+}
+html {
+  background-color: black;
+}
+
+body,
+html {
+  background-color: var(--BGcolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Press Start 2P", cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h4 {
+  color: var(--textColor);
+}
+h2 {
+  color: var(--textColor);
+}
+h1 {
+  color: var(--textColor);
+}
+
+.LandingPageBtn {
+  font-family: "Press Start 2P", cursive;
+  padding: 1em;
+  margin: 2em;
+  background-color: var(--BGcolor);
+  color: var(--textColor);
+  border: 6px outset var(--textColor);
+  border-radius: 7px;
+  font-size: 20px;
+  /* box-shadow: 2px 2px 3px 2px #3b2591; */
+}
+
+.LandingPageBtn:hover {
+  transform: scale(1.2);
+  background-color: var(--textColor);
+  color: var(--BGcolor);
+  transition: 0.5s;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Press+Start+2P&family=Rubik+Mono+One&display=swap");
+
+:root {
+  --BGcolor: #000000;
+  --textColor: #a7d129;
+  --text: "Press Start 2P", cursive;
+  --textff: "Rubik Mono One", sans-serif;
+  --textffgg: "Bakbak One", cursive;
+}
+body {
+  background-color: black;
+
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* flex-direction: column; */
+  /* background-image: url("2084833.jpeg");
+  background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100%;
+}
+h5 {
+  position: absolute;
+  bottom: 60%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  color: #a7d129;
+  font-family: var(--textffgg);
+  font-size: 30px;
+}
+.dog22 {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+.formform {
+  position: absolute;
+  bottom: 55%;
+  left: 43%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  /* background-color: green; */
+  color: white;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 0.7em;
+  left: 2em;
+  font-family: var(--textffgg);
+  font-size: 2.1em;
+  /* color: #d8e9a8; */
+  color: var(--textColor);
+  padding: 10px;
+}
+.header-thumbnails {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  font-family: var(--textffgg);
+  font-size: 2em;
+  margin-top: 0.7em;
+  margin-right: 20px;
+  /* color: #d8e9a8; */
+  color: var(--textColor);
+}
+.About {
+  margin-right: 2em;
+  padding: 10px;
+  text-decoration: none;
+  color: #a7d129;
+}
+.About:hover {
+  cursor: pointer;
+  background: var(--textColor);
+  color: black;
+  transition: 0.5s ease-in;
+
+  border-radius: 30px;
+}
+
+.Info {
+  margin-right: 2em;
+  padding: 10px;
+}
+.Info:hover {
+  cursor: pointer;
+  background: var(--textColor);
+  color: black;
+  transition: 0.5s ease-in;
+
+  border-radius: 30px;
+}
+
+.More {
+  margin-right: 1em;
+  padding: 10px;
+}
+.More:hover {
+  cursor: pointer;
+  background: var(--textColor);
+  color: black;
+  transition: 0.3s ease-in;
+  border-radius: 30px;
+}
+.lmn {
+  text-decoration: none;
+  color: #a7d129;
+}
+.xyz {
+  text-decoration: none;
+  color: #a7d129;
+}
+.abc {
+  text-decoration: none;
+  color: #a7d129;
+}
